@@ -1,0 +1,17 @@
+<suite name="regression">  
+	 
+<parameter name="brow" value="chrome"></parameter>    <!-- Step1-->
+<parameter name="Email_Add1" value="aaa@hotmail.com"></parameter> 
+<parameter name="PASS1" value="555"></parameter> 
+
+<parameter name="Email_Add2" value="KKK@hotmail.com"></parameter> 
+<parameter name="PASS2" value="666"></parameter>
+
+ 
+                                                                 
+<test name="fbhome_restart browser">                                               
+<classes>
+<class name="new_test.NewTest"></class>
+</classes>
+</test>
+</suite>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [regression]" verbose="0">
+  <parameter name="Email_Add2" value="KKK@hotmail.com"/>
+  <parameter name="brow" value="chrome"/>
+  <parameter name="PASS1" value="555"/>
+  <parameter name="Email_Add1" value="aaa@hotmail.com"/>
+  <parameter name="PASS2" value="666"/>
+  <test thread-count="5" name="fbhome_restart browser(failed)" verbose="0">
+    <classes>
+      <class name="new_test.NewTest">
+        <methods>
+          <include name="f2"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- new_test.NewTest -->
+    </classes>
+  </test> <!-- fbhome_restart browser(failed) -->
+</suite> <!-- Failed suite [regression] -->
